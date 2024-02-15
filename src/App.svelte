@@ -34,7 +34,7 @@
   class="font-inter bg-neutral-offBlack h-svh w-full p-6 grid place-items-center"
 >
   <div
-    class="w-full bg-neutral-darkGrey flex flex-col items-center rounded-xl py-6 px-8 text-white gap-4"
+    class="w-full bg-neutral-darkGrey flex flex-col items-center rounded-xl py-6 md:py-8 px-8 md:gap-6 text-white gap-4 max-w-sm"
   >
     <img
       class="size-20 rounded-full"
@@ -48,8 +48,10 @@
       </h2>
     </div>
     <p class="text-xs">"Front-end Developer and avid reader."</p>
-    {#each links as link (link.title)}
-      <Links {...link} />
-    {/each}
+    <div class="flex flex-col w-full gap-3">
+      {#each links as link (link.title)}
+        <Links {...link} />
+      {/each}
+    </div>
   </div>
 </main>
