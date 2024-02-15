@@ -32,11 +32,7 @@
   ];
   const sequence = [
     [".card", { opacity: 1 }, { duration: 0.5 }],
-    [
-      ".clipped-items",
-      { y: [100, 0] },
-      { delay: stagger(0.08), easing: [0.34, 1.56, 0.64, 1] },
-    ],
+    [".clipped-items", { y: [100, 0] }, { delay: stagger(0.08) }],
   ];
 
   onMount(() => {
