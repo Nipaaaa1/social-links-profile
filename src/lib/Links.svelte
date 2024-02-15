@@ -3,7 +3,12 @@
   export let href: string;
 </script>
 
-<a
-  class="text-sm w-full text-center bg-neutral-grey py-3 rounded-lg font-medium hover:bg-primary-green hover:text-neutral-grey transition-colors ease-in-out"
-  {href}>{title}</a
->
+<div class="clipped">
+  <div
+    class="clipped-items text-sm w-full text-center bg-neutral-grey py-3 rounded-lg font-medium hover:bg-primary-green hover:text-neutral-grey transition-colors ease-in-out"
+  >
+    <a {href}>
+      {title}
+    </a>
+  </div>
+</div>

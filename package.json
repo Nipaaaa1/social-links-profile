@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.17",
+    "motion": "^10.17.0",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-svelte": "^3.2.1",
