@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Links from "./lib/Links.svelte";
-  import { stagger, timeline, spring } from "motion";
+  import { stagger, timeline } from "motion";
 
   type links = {
     title: string;
