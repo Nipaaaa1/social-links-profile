@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import Links from "./lib/Links.svelte";
   import { stagger, timeline } from "motion";
+  import Jessica from "/images/avatar-jessica.jpeg";
 
   type links = {
     title: string;
@@ -49,7 +50,7 @@
     <div class="clipped">
       <img
         class="clipped-items size-20 rounded-full"
-        src="/images/avatar-jessica.jpeg"
+        src={Jessica}
         alt="Jessica Avatar"
       />
     </div>
